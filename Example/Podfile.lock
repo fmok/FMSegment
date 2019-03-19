@@ -1,0 +1,16 @@
+PODS:
+  - FMSegment (0.1.0)
+
+DEPENDENCIES:
+  - FMSegment (from `../`)
+
+EXTERNAL SOURCES:
+  FMSegment:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMSegment: 5873c590eb24fd9b5a6becbdece016ded2fc0421
+
+PODFILE CHECKSUM: 1ebf7b260d4d92c86bd008388db04b9bb943f330
+
+COCOAPODS: 1.6.0.beta.2

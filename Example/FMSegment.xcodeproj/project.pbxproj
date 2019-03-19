@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		3BEA6A3BCFA6E3FAA7E9D2E3 /* Pods-FMSegment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMSegment_Tests.release.xcconfig"; path = "Target Support Files/Pods-FMSegment_Tests/Pods-FMSegment_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5AC6B7FB92FD19AA0E0F23D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5AC6B7FB92FD19AA0E0F23D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FMSegment_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMSegment_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		A21F7FD4148E90ACC4570FAC /* Pods-FMSegment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMSegment_Example.debug.xcconfig"; path = "Target Support Files/Pods-FMSegment_Example/Pods-FMSegment_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D17E41EC54A1F830E2595819 /* Pods_FMSegment_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMSegment_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC1DC4E2497D5804C688F53 /* Pods_FMSegment_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMSegment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4C029710825AE84E4733FC7 /* FMSegment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FMSegment.podspec; path = ../FMSegment.podspec; sourceTree = "<group>"; };
-		F746A2090CFFD8089127D2E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F4C029710825AE84E4733FC7 /* FMSegment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FMSegment.podspec; path = ../FMSegment.podspec; sourceTree = "<group>"; };
+		F746A2090CFFD8089127D2E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				611A4319AD9E64EC96D7486E /* Pods-FMSegment_Tests.debug.xcconfig */,
 				3BEA6A3BCFA6E3FAA7E9D2E3 /* Pods-FMSegment_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wangjiuyin;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = U7JM2DB4N8;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -498,9 +500,11 @@
 			baseConfigurationReference = A21F7FD4148E90ACC4570FAC /* Pods-FMSegment_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U7JM2DB4N8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FMSegment/FMSegment-Prefix.pch";
 				INFOPLIST_FILE = "FMSegment/FMSegment-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,9 +517,11 @@
 			baseConfigurationReference = 6F827AFB5B239C8B9C05759D /* Pods-FMSegment_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U7JM2DB4N8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FMSegment/FMSegment-Prefix.pch";
 				INFOPLIST_FILE = "FMSegment/FMSegment-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

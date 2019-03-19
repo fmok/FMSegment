@@ -1,0 +1,22 @@
+{
+  "name": "FMSegment",
+  "version": "0.1.0",
+  "summary": "A short description of FMSegment.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangjiuyin/FMSegment",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangjiuyin": "1528123808@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wangjiuyin/FMSegment.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FMSegment/Classes/**/*"
+}

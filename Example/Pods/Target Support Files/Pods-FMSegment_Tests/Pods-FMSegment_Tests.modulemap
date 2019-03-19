@@ -1,0 +1,6 @@
+framework module Pods_FMSegment_Tests {
+  umbrella header "Pods-FMSegment_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

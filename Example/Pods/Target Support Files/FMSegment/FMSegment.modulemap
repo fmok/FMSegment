@@ -1,0 +1,6 @@
+framework module FMSegment {
+  umbrella header "FMSegment-umbrella.h"
+
+  export *
+  module * { export * }
+}
