@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FMSegment_Example' do
+  pod 'FMSegment', :path => '../'
+
+  target 'FMSegment_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
